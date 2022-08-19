@@ -1,0 +1,16 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "belajarjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"http-server ./public --port 3000 -c-1"
+  },
+  "author": "rianobanoet",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "jvalley-sleep": "^1.0.0"
+  }
+}
